@@ -24,7 +24,7 @@ Software developers use text editors or integrated development environments (IDE
 Homebrew is a package manager for macOS. Think App Store for developers. We will use Homebrew to install the newest version of Python.
 
 * Open Terminal and copy/paste the following line.
-  * ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)``
+  * ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
   * You'll be prompted to enter your macOS password during the installation. Type your password and hit Enter. Note that Terminal won't show that characters are being entered during a password prompt.
 * Add Homebrew to PATH (so that your Mac can find it)
   * Copy/paste the following line into your terminal
