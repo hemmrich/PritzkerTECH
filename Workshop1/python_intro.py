@@ -17,8 +17,8 @@ import pandas as pd
 #We assign a name to the table (health_data) using "=".
 #Within the parentheses, we type the file name exactly as it appears in our working directory (desktop), and then add quotes around it. 
 
-health_data = pd.read_csv("Public_Health_Statistics-_Selected_public_health_indicators_by_Chicago_community_area.csv")
-#health_data = pd.read_csv("https://data.cityofchicago.org/api/views/iqnk-2tcu/rows.csv?accessType=DOWNLOAD")
+#health_data = pd.read_csv("Public_Health_Statistics-_Selected_public_health_indicators_by_Chicago_community_area.csv")
+health_data = pd.read_csv("https://data.cityofchicago.org/api/views/iqnk-2tcu/rows.csv?accessType=DOWNLOAD")
 print(health_data.head())
 
 #This will output (in the Python shell) the first five rows of data to preview how it looks.
